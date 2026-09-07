@@ -1,6 +1,6 @@
 # Sebastián Damiani Wolf
 
-Chemical engineer turned applied-AI engineer. I build agentic systems, RAG pipelines and LLM automation for industry and energy, and I ship them myself, down to the parsers and the Docker files. I work as AI Catalyst at DGD (Dominion) in Essen, Germany, a Chilean in German industrial contexts.
+Applied AI engineer, chemical engineer by training. I build agentic systems, RAG pipelines and LLM automation for industry and energy, and I ship them myself, down to the parsers and the Docker files, into the environment where the data lives: the forward-deployed part of the job. Currently at Dominion Global in Essen, Germany, a Chilean in German industrial contexts.
 
 ## Selected work
 
