@@ -1,6 +1,6 @@
 # Sebastián Damiani Wolf
 
-Chemical engineer turned applied-AI engineer. I build agentic systems, RAG pipelines and LLM automation for industry and energy, and I ship the whole thing: parsers, evals, Docker, the boring parts. I work as AI Catalyst at DGD (Dominion) in Essen, Germany, a Chilean in German industrial contexts.
+Chemical engineer turned applied-AI engineer. I build agentic systems, RAG pipelines and LLM automation for industry and energy, and I ship them myself, down to the parsers and the Docker files. I work as AI Catalyst at DGD (Dominion) in Essen, Germany, a Chilean in German industrial contexts.
 
 ## Selected work
 
@@ -22,7 +22,7 @@ Stack: Expo SDK 54, React Native 0.81.5, TypeScript, Supabase Edge Function call
 
 ## How I work
 
-- Numbers in my READMEs come with the command that produces them. chilecompara's live catalog counts are absent because I could not re-run the scrapers to confirm them.
+- Numbers in my READMEs come with the command that produces them. chilecompara's catalog counts carry the date they were measured and a five-run spread, because the number moves between passes and a single figure would imply it does not.
 - pollagol-sim's out-of-domain backtest (n=5402, +0.044 points per match, 95% CI excludes zero) ran before the live season, not after.
 - I default to local and reproducible where the domain allows it: chemtrace runs entirely on the user's machine, with emission factors in a JSON file, one entry per energy type with its source and year.
 
