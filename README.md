@@ -4,6 +4,10 @@ Applied AI engineer, chemical engineer by training. I build agentic systems, RAG
 
 ## Selected work
 
+**[valid-evals](https://github.com/sdamianiw/valid-evals)**: Checks whether an AI agent's eval run was valid before its score counts. The decision rule is hashed before any run, each Claude Code or Codex trace is checked without a model for a wrong model, a leaked answer key or a human turn, and two judges from different vendors must agree for a case to count.  
+Receipt: on 12 real Claude Code runs it flagged none of the 10 clean runs and caught both planted cheats with the right cause; in 6 of the 10 the agent's test command was denied, which a pass rate hides. A mutation corpus pins coverage per failure cause.  
+Stack: Python standard library only, CI on Linux, macOS and Windows with Python 3.10 to 3.13. MIT.
+
 **[chemtrace](https://github.com/sdamianiw/chemtrace)**: Local-first Scope 1-2 carbon accounting for German industrial SMEs facing CSRD reporting. It parses energy invoices and SAP CSV exports, computes CO2e, and answers questions over the data.  
 Receipt: runs with zero cloud dependencies and zero API keys; exports to the EFRAG VSME Digital Template v1.2.0; 155 tests gate every PR.  
 Stack: Python 3.11, Ollama (`llama3.2:3b`), ChromaDB, `all-MiniLM-L6-v2` embeddings, Docker Compose. MIT.
